@@ -20,4 +20,4 @@ exports.cartpage = class cartpage{
         await this.page.locator(this.deleteincart).click();
     }
     
-}
+};

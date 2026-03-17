@@ -26,4 +26,4 @@ async addproductTocart(productname){
     async gotocart(){
         await this.page.locator(this.cart).click();
     }
-}
+};
